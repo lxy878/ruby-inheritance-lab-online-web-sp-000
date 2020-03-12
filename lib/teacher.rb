@@ -5,7 +5,7 @@ class Teacher < User
   def teach
     r = Random.new
     index = r.rand(0...KNOWLEDGE.size)
-    KNOWLEDGE[1]
+    KNOWLEDGE[index]
   end
 
 end
